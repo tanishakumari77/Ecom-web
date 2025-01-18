@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ecommerce-web</title>
+    <link rel="stylesheet" href="work.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">flower<span>.</span></a>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#products">Product</a>
+            <a href="#review">Reviews</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="icons">
+            <a href="#userlogin" class="fas fa-user" aria-label="User  Account"></a>
+            <a href="#carticon" class="fas fa-shopping-cart" aria-label="Shopping Cart">
+                <span class="cart-badge" style="display: none;">0</span>
+            </a>
+        </div>
+    </header>
+    <section class="home" id="home">
+        <div class="content">
+            <h3>The Flower Studio</h3>
+            <span>Where every bloom tells a story. Fresh, unique, and delivered right to you</span>
+            <p>Experience the beauty of fresh flowers, carefully selected and arranged to perfection</p>
+            <a href="#" class="btn">Shop now</a>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <h1 class="heading"> <span>ABOUT</span> US </h1>
+        <div class="row">
+            <div class="image-container">
+                <img src="flowers.jpg" alt="Beautiful flowers">
+                <h3>Best Flower Sellers</h3>
+            </div>
+            <div class="content">
+                <h3>Why choose us?</h3>
+                <p>
+                    Hi there! We are Flowy Trio, flower enthusiasts and hobbyist bloggers. 
+                    We created the Flower Page as a space to share our passion for flowers, gardening, and photography. 
+                    When we're not studying or working, you can find us tending to our garden, experimenting with floral arrangements,
+                    or capturing the beauty of flowers through our camera lens. We are self-taught florists and gardeners and
+                    love sharing tips, tricks, and inspiration with fellow flower lovers.
+                </p>
+                <p>Flowers are a perfect choice for decorating. They bring great joy.</p>
+            </div>
+        </div>
+    </section>
+    <section class="login-page" id="userlogin">
+        <div class="login-container">
+            <h2>Login</h2>
+            <form id="loginForm">
+                <label for="username">Username:</label>
+                <input type="text" id="username" placeholder="Enter your username" required>
+                <label for="password">Password:</label>
+                <input type="password" id="password" placeholder="Enter your password" required>
+                <button type="submit" class="btn login-btn">Login</button>
+            </form>
+            <p>Don't have an account? <a href="#">Sign Up</a></p>
+        </div>
+    </section>
+
+    <section class="products" id="products">
+        <h1 class="heading">Sale <span>Products</span></h1>
+    
+        <div class="box-container">
+            <!-- Single Product -->
+            <div class="box">
+                <img src="pot1.jpg" alt="Beautiful Flower Pot">
+                <div class="content">
+                    <h3>Flower Pot</h3>
+                    <div class="price">$12.99 <span>$15.99</span></div>
+                    <a href="#" class="cart-btn" data-name="Flower Pot" data-price="12.99">Add to Cart</a>
+                </div>
+            </div>
+    
+            
+            <div class="box">
+                <img src="pot2.jpg" alt="Elegant Flower Pot">
+                <div class="content">
+                    <h3>Flower Pot</h3>
+                    <div class="price">$11.99 <span>$13.99</span></div>
+                    <a href="#" class="cart-btn" data-name="Flower Pot" data-price="11.99">Add to Cart</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="pot3.jpg" alt="Elegant Flower Pot">
+                <div class="content">
+                    <h3>Flower Pot</h3>
+                    <div class="price">$12.99 <span>$13.99</span></div>
+                    <a href="#" class="cart-btn" data-name="Flower Pot" data-price="12.99">Add to Cart</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="pot4.jpg" alt="Elegant Flower Pot">
+                <div class="content">
+                    <h3>Flower Pot</h3>
+                    <div class="price">$9.99 <span>$13.99</span></div>
+                    <a href="#" class="cart-btn" data-name="Flower Pot" data-price="9.99">Add to Cart</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="pot5.jpg" alt="Elegant Flower Pot">
+                <div class="content">
+                    <h3>Flower Pot</h3>
+                    <div class="price">$8.99 <span>$13.99</span></div>
+                    <a href="#" class="cart-btn" data-name="Flower Pot" data-price="8.99">Add to Cart</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="pot6.jpg" alt="Elegant Flower Pot">
+                <div class="content">
+                    <h3>Flower Pot</h3>
+                    <div class="price">$10.99 <span>$13.99</span></div>
+                    <a href="#" class="cart-btn" data-name="Flower Pot" data-price="10.99">Add to Cart</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="pot7.jpg" alt="Elegant Flower Pot">
+                <div class="content">
+                    <h3>Flower Pot</h3>
+                    <div class="price">$11.99 <span>$13.99</span></div>
+                    <a href="#" class="cart-btn" data-name="Flower Pot" data-price="11.99">Add to Cart</a>
+                </div>
+            </div><div class="box">
+                <img src="pot8.jpg" alt="Elegant Flower Pot">
+                <div class="content">
+                    <h3>Flower Pot</h3>
+                    <div class="price">$6.99 <span>$13.99</span></div>
+                    <a href="#" class="cart-btn" data-name="Flower Pot" data-price="6.99">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+    
+        <h1 class="heading">Fresh <span>Flowers</span></h1>
+    
+        <div class="box-container">
+            
+            <div class="box">
+                <img src="redroses.avif" alt="Red Rose">
+                <div class="content">
+                    <h3>Red Roses</h3>
+                    <div class="price">$7.99 <span>$7.99</span></div>
+                    <a href="#" class="cart-btn" data-name="Red Roses" data-price="7.99">Add to Cart</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="marigold.jpg" alt="marigold">
+                <div class="content">
+                    <h3>Marigold</h3>
+                    <div class="price">$5.99 <span>$7.99</span></div>
+                    <a href="#" class="cart-btn" data-name="Marigold" data-price="5.99">Add to Cart</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="sunflowers.jpg" alt="sunflowers">
+                <div class="content">
+                    <h3>Sunflowers</h3>
+                    <div class="price">$8.99 <span>$7.99</span></div>
+                    <a href="#" class="cart-btn" data-name="Sunflowers" data-price="8.99">Add to Cart</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="tulips.jpg" alt="tulips">
+                <div class="content">
+                    <h3>Tulips</h3>
+                    <div class="price">$6.99 <span>$7.99</span></div>
+                    <a href="#" class="cart-btn" data-name="Tulips" data-price="6.99">Add to Cart</a>
+                </div>
+            </div>
+    
+           
+            
+            <div class="box">
+                <img src="whiteroses.webp" alt="White Rose">
+                <div class="content">
+                    <h3>White Roses</h3>
+                    <div class="price">$4.49 <span>$8.49</span></div>
+                    <a href="#" class="cart-btn" data-name="White Roses" data-price="4.49">Add to Cart</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="orchrid.png" alt="Orchid">
+                <div class="content">
+                    <h3>Orchid</h3>
+                    <div class="price">$5.49 <span>$8.49</span></div>
+                    <a href="#" class="cart-btn" data-name="Orchid" data-price="5.49">Add to Cart</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="lavender.jpg" alt="lavender">
+                <div class="content">
+                    <h3>Lavenders</h3>
+                    <div class="price">$7.49 <span>$8.49</span></div>
+                    <a href="#" class="cart-btn" data-name="Lavenders" data-price="7.49">Add to Cart</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="iris.jpg" alt="iris">
+                <div class="content">
+                    <h3>Iris</h3>
+                    <div class="price">$3.49 <span>$8.49</span></div>
+                    <a href="#" class="cart-btn" data-name="Iris" data-price="8.49">Add to Cart</a>
+                </div>
+            </div>
+    
+            
+            <div class="box">
+                <img src="dasiy.jpg" alt="daisy">
+                <div class="content">
+                    <h3>dasiy</h3>
+                    <div class="price">$7.99 <span>$9.49</span></div>
+                    <a href="#" class="cart-btn" data-name="dasiy" data-price="7.99">Add to Cart</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="pinkroses.avif" alt="Pink Rose">
+                <div class="content">
+                    <h3>Pink Rose</h3>
+                    <div class="price">$7.99 <span>$9.49</span></div>
+                    <a href="#" class="cart-btn" data-name="Pink Rose" data-price="7.99">Add to Cart</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="aster.jpeg" alt="aster">
+                <div class="content">
+                    <h3>aster</h3>
+                    <div class="price">$5.99 <span>$9.49</span></div>
+                    <a href="#" class="cart-btn" data-name="aster" data-price="5.99">Add to Cart</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="lily.jpg" alt="lily">
+                <div class="content">
+                    <h3>lilies</h3>
+                    <div class="price">$7.99 <span>$9.49</span></div>
+                    <a href="#" class="cart-btn" data-name="lilies" data-price="7.99">Add to Cart</a>
+                </div>
+            </div>
+    
+            
+            <div class="box">
+                <img src="lotus.jpeg" alt="lotus">
+                <div class="content">
+                    <h3>lotus</h3>
+                    <div class="price">$5.49 <span>$7.49</span></div>
+                    <a href="#" class="cart-btn" data-name="lotus" data-price="5.49">Add to Cart</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="jasmine.jpg" alt="jasmine">
+                <div class="content">
+                    <h3>Jasmine</h3>
+                    <div class="price">$4.49 <span>$7.49</span></div>
+                    <a href="#" class="cart-btn" data-name="Jasmine" data-price="4.49">Add to Cart</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="blackrose.jpg" alt="black Rose">
+                <div class="content">
+                    <h3>Black rose</h3>
+                    <div class="price">$3.49 <span>$7.49</span></div>
+                    <a href="#" class="cart-btn" data-name="Black rose" data-price="3.49">Add to Cart</a>
+                </div>
+            </div>
+     </div>
+     <h1 class="heading">Best Selling <span>Products</span></h1>
+
+<div class="box-container">
+
+    <div class="box">
+        <img src="marigold.jpg" alt="best selling">
+        <div class="content">
+            <h3>marigold</h3>
+            <div class="price">$5.99 <span>$7.99</span></div>
+            <a href="#" class="cart-btn" data-name="marigold" data-price="5.99">Add to Cart</a>
+        </div>
+    </div>
+    
+    
+    <div class="box">
+        <img src="crush.jpeg" alt="crush bouqet">
+        <div class="content">
+            <h3>Crush bouqet</h3>
+            <div class="price">$6.49 <span>$8.49</span></div>
+            <a href="#" class="cart-btn" data-name="Crush bouqet" data-price="6.49">Add to Cart</a>
+        </div>
+    </div>
+    
+    
+    <div class="box">
+        <img src="rosesbouquet.jpg" alt=" Rose">
+        <div class="content">
+            <h3>Roses bouqet</h3>
+            <div class="price">$6.99 <span>$9.49</span></div>
+            <a href="#" class="cart-btn" data-name="Roses bouqets" data-price="6.99">Add to Cart</a>
+        </div>
+    </div>
+    <div class="box">
+        <img src="pinknouquet.avif" alt="pink Rose">
+        <div class="content">
+            <h3>pink delight</h3>
+            <div class="price">$5.49 <span>$7.49</span></div>
+            <a href="#" class="cart-btn" data-name="pink delight" data-price="5.49">Add to Cart</a>
+        </div>
+    </div>
+</div>
+
+    </section>
+                
+    <section class="cart-page" id="carticon">
+        <div class="cart-container">
+            <h2>Your Shopping Cart</h2>
+            <div class="total-price" style="display: none;">
+                Total price: <strong>$<span class="total-price-value">0.00</span></strong>
+            </div>
+            <div class="cart-items">
+                <p>Your cart is empty. Start adding items!</p>
+            </div>
+            <button class="btn checkout-btn" style="display: none;">Proceed to Checkout</button>
+        </div>
+    </section>
+            
+    <section class="review" id="review">
+        <h1 class="heading"> Customer's <span>Review</span> </h1>
+        <div class="box-container">
+
+            <div class="box">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>I am absolutely blown away by the exceptional service and stunning arrangements from Flowy Trio! I ordered a custom bouquet for my sister's birthday, and the team went above and beyond to create a truly breathtaking piece.</p>
+                <div class="user">
+                    <img src="ian.jpg" alt="Review by Ian Kingston">
+                    <div class="user-info">
+                        <h3>Ian Kingston</h3>
+                        <span>Happy Customer</span>
+                    </div>
+                </div>
+                <span class="fas fa-quote-right"></span>
+            </div> 
+
+            <div class="box">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>Always impressing me with the beautiful flowers, so refreshing and pretty that I couldn't get enough of them.</p>
+                <div class="user">
+                    <img src="kenji.jpg" alt="Review by Kenji Kishimoto">
+                    <div class="user-info">
+                        <h3>Kenji Kishimoto</h3>
+                        <span>Happy Customer</span>
+                    </div>
+                </div>
+                <span class="fas fa-quote-right"></span>
+            </div> 
+
+            <div class="box">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>I've never been disappointed with Flowy Trio. Their arrangements are always gorgeous, and their customer service is top-notch.</p>
+                <div class="user">
+                    <img src="jules.jpg" alt="Review by Jules Ambrose">
+                    <div class="user-info">
+                        <h3>Jules Ambrose</h3>
+                        <span>Happy Customer</span>
+                    </div>
+                </div>
+                <span class="fas fa-quote-right"></span>
+            </div> 
+        </div>
+    </section>
+
+
+
+    <section class="contact" id="contact">
+        <h1 class="heading"> <span> contact </span> us </h1>
+        <div class="row">
+            <form action="">
+                <input type="text" placeholder="Name" class="box">
+                <input type="email" placeholder="Email" class="box">
+                <input type="number" placeholder="Number" class="box">
+                <textarea name="" class="box" placeholder="Message" id="" cols="30" rows="10"></textarea>
+                <input type="submit" value="send message" class="btn">
+            </form>
+            <div class="image">
+                <img src="images/contact-img.svg" alt="">
+            </div>
+        </div>
+    </section>
+                        
+<script src="project.js"></script>
+</body>
+</html>
